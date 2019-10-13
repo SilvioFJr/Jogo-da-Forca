@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/imagens">
+        <file>imgForca.png</file>
+        <file>Top-Dark-Wallpaper.jpg</file>
+        <file>forca.png</file>
+    </qresource>
+</RCC>
