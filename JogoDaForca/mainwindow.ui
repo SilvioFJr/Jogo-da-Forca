@@ -3,7 +3,7 @@
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
   <property name="enabled">
-   <bool>false</bool>
+   <bool>true</bool>
   </property>
   <property name="geometry">
    <rect>
@@ -32,7 +32,7 @@
    <double>3.000000000000000</double>
   </property>
   <property name="autoFillBackground">
-   <bool>true</bool>
+   <bool>false</bool>
   </property>
   <property name="styleSheet">
    <string notr="true">background-image: url(:/imagens/Top-Dark-Wallpaper.jpg);</string>
@@ -76,7 +76,7 @@ background: transparent;</string>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="enabled">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -85,6 +85,12 @@ background: transparent;</string>
       <width>141</width>
       <height>68</height>
      </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
@@ -186,6 +192,9 @@ background: transparent;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -209,8 +218,6 @@ background: transparent;</string>
     </property>
    </widget>
    <zorder>label</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
    <zorder>label_2</zorder>
    <zorder>label_3</zorder>
    <zorder>pushButton</zorder>
