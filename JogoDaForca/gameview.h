@@ -1,6 +1,5 @@
 #ifndef GAMEVIEW_H
 #define GAMEVIEW_H
-
 #include <QDialog>
 
 namespace Ui {
@@ -18,5 +17,8 @@ public:
 private:
     Ui::GameView *ui;
 };
+
+
+
 
 #endif // GAMEVIEW_H

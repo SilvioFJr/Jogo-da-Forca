@@ -250,6 +250,7 @@ Makefile: ../JogoDaForca/JogoDaForca.pro C:/Qt/5.12.5/mingw73_64/mkspecs/win32-g
 		../JogoDaForca/JogoDaForca.pro \
 		C:/Qt/5.12.5/mingw73_64/lib/Qt5Widgets.prl \
 		C:/Qt/5.12.5/mingw73_64/lib/Qt5Gui.prl \
+		C:/Qt/5.12.5/mingw73_64/lib/Qt5Sql.prl \
 		C:/Qt/5.12.5/mingw73_64/lib/Qt5Core.prl \
 		C:/Qt/5.12.5/mingw73_64/lib/qtmain.prl
 	$(QMAKE) -o Makefile ..\JogoDaForca\JogoDaForca.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -440,6 +441,7 @@ C:/Qt/5.12.5/mingw73_64/mkspecs/features/lex.prf:
 ../JogoDaForca/JogoDaForca.pro:
 C:/Qt/5.12.5/mingw73_64/lib/Qt5Widgets.prl:
 C:/Qt/5.12.5/mingw73_64/lib/Qt5Gui.prl:
+C:/Qt/5.12.5/mingw73_64/lib/Qt5Sql.prl:
 C:/Qt/5.12.5/mingw73_64/lib/Qt5Core.prl:
 C:/Qt/5.12.5/mingw73_64/lib/qtmain.prl:
 qmake: FORCE
