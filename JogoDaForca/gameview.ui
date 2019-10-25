@@ -74,192 +74,507 @@
   <widget class="QWidget" name="gridLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>450</y>
-     <width>741</width>
+     <x>20</x>
+     <y>440</y>
+     <width>761</width>
      <height>121</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetFixedSize</enum>
+    </property>
     <item row="0" column="3">
-     <widget class="QLabel" name="C">
-      <property name="text">
-       <string>TextLabel</string>
+     <widget class="QPushButton" name="D">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
       </property>
-     </widget>
-    </item>
-    <item row="0" column="11">
-     <widget class="QLabel" name="K">
-      <property name="text">
-       <string>TextLabel</string>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
       </property>
-     </widget>
-    </item>
-    <item row="0" column="6">
-     <widget class="QLabel" name="F">
       <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="4">
-     <widget class="QLabel" name="D">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="2">
-     <widget class="QLabel" name="B">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="12">
-     <widget class="QLabel" name="L">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="5">
-     <widget class="QLabel" name="E">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="7">
-     <widget class="QLabel" name="G">
-      <property name="text">
-       <string>TextLabel</string>
+       <string>D</string>
       </property>
      </widget>
     </item>
     <item row="0" column="8">
-     <widget class="QLabel" name="H">
-      <property name="text">
-       <string>TextLabel</string>
+     <widget class="QPushButton" name="I">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
       </property>
-     </widget>
-    </item>
-    <item row="0" column="9">
-     <widget class="QLabel" name="I">
-      <property name="text">
-       <string>TextLabel</string>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
       </property>
-     </widget>
-    </item>
-    <item row="0" column="10">
-     <widget class="QLabel" name="J">
       <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0">
-     <widget class="QLabel" name="A">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="13">
-     <widget class="QLabel" name="M">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <widget class="QLabel" name="N">
-      <property name="text">
-       <string>TextLabel</string>
+       <string>I</string>
       </property>
      </widget>
     </item>
     <item row="1" column="2">
-     <widget class="QLabel" name="O">
+     <widget class="QPushButton" name="P">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>P</string>
       </property>
      </widget>
     </item>
     <item row="1" column="3">
-     <widget class="QLabel" name="P">
+     <widget class="QPushButton" name="Q">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>Q</string>
       </property>
      </widget>
     </item>
-    <item row="1" column="4">
-     <widget class="QLabel" name="Q">
+    <item row="0" column="2">
+     <widget class="QPushButton" name="C">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>C</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QPushButton" name="G">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>G</string>
       </property>
      </widget>
     </item>
     <item row="1" column="5">
-     <widget class="QLabel" name="R">
-      <property name="text">
-       <string>TextLabel</string>
+     <widget class="QPushButton" name="S">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
       </property>
-     </widget>
-    </item>
-    <item row="1" column="6">
-     <widget class="QLabel" name="S">
-      <property name="text">
-       <string>TextLabel</string>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
       </property>
-     </widget>
-    </item>
-    <item row="1" column="7">
-     <widget class="QLabel" name="T">
       <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="8">
-     <widget class="QLabel" name="U">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="9">
-     <widget class="QLabel" name="V">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="10">
-     <widget class="QLabel" name="W">
-      <property name="text">
-       <string>TextLabel</string>
+       <string>S</string>
       </property>
      </widget>
     </item>
     <item row="1" column="11">
-     <widget class="QLabel" name="X">
+     <widget class="QPushButton" name="Y">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>Y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QPushButton" name="F">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>F</string>
       </property>
      </widget>
     </item>
     <item row="1" column="12">
-     <widget class="QLabel" name="Y">
+     <widget class="QPushButton" name="Z">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>Z</string>
       </property>
      </widget>
     </item>
-    <item row="1" column="13">
-     <widget class="QLabel" name="Z">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="A">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>A</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="B">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>B</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="O">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>O</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="9">
+     <widget class="QPushButton" name="J">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>J</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QPushButton" name="H">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>H</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="7">
+     <widget class="QPushButton" name="U">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>U</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QPushButton" name="R">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>R</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="10">
+     <widget class="QPushButton" name="X">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>X</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="N">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>N</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="10">
+     <widget class="QPushButton" name="K">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>K</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="8">
+     <widget class="QPushButton" name="V">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>V</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="6">
+     <widget class="QPushButton" name="T">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>T</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="9">
+     <widget class="QPushButton" name="W">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>W</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="11">
+     <widget class="QPushButton" name="L">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>L</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="12">
+     <widget class="QPushButton" name="M">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>M</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QPushButton" name="E">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cute Jellyfish</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>E</string>
       </property>
      </widget>
     </item>
