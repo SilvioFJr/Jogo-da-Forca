@@ -29,42 +29,16 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(:/imagens/img_gameview.jpg);
+   <string notr="true">background-image: url(:/imagens/Top-Dark-Wallpaper.jpg);
 </string>
   </property>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="label_16">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>10</y>
-     <width>311</width>
-     <height>101</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>TextLabel</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_3">
-   <property name="geometry">
-    <rect>
-     <x>360</x>
-     <y>0</y>
-     <width>400</width>
-     <height>400</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>TextLabel</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_4">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>190</y>
-     <width>331</width>
-     <height>81</height>
+     <x>490</x>
+     <y>270</y>
+     <width>60</width>
+     <height>60</height>
     </rect>
    </property>
    <property name="text">
@@ -74,507 +48,331 @@
   <widget class="QWidget" name="gridLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>440</y>
-     <width>761</width>
-     <height>121</height>
+     <x>-10</x>
+     <y>380</y>
+     <width>824</width>
+     <height>215</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
-    <property name="sizeConstraint">
-     <enum>QLayout::SetFixedSize</enum>
+    <property name="leftMargin">
+     <number>10</number>
     </property>
-    <item row="0" column="3">
-     <widget class="QPushButton" name="D">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>D</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="8">
-     <widget class="QPushButton" name="I">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>I</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="2">
-     <widget class="QPushButton" name="P">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>P</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="3">
-     <widget class="QPushButton" name="Q">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
+    <property name="rightMargin">
+     <number>10</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="1" column="6">
+     <widget class="QPushButton" name="btn_Q">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
       </property>
       <property name="text">
        <string>Q</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="2">
-     <widget class="QPushButton" name="C">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>C</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="6">
-     <widget class="QPushButton" name="G">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>G</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="5">
-     <widget class="QPushButton" name="S">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>S</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="11">
-     <widget class="QPushButton" name="Y">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Y</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="5">
-     <widget class="QPushButton" name="F">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>F</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="12">
-     <widget class="QPushButton" name="Z">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Z</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0">
-     <widget class="QPushButton" name="A">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>A</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <widget class="QPushButton" name="B">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>B</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QPushButton" name="O">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>O</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="9">
-     <widget class="QPushButton" name="J">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>J</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="7">
-     <widget class="QPushButton" name="H">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>H</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="7">
-     <widget class="QPushButton" name="U">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>U</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="4">
-     <widget class="QPushButton" name="R">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>R</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="10">
-     <widget class="QPushButton" name="X">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>X</string>
-      </property>
-     </widget>
-    </item>
     <item row="1" column="0">
-     <widget class="QPushButton" name="N">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>N</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="10">
-     <widget class="QPushButton" name="K">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
+     <widget class="QPushButton" name="btn_K">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
       </property>
       <property name="text">
        <string>K</string>
       </property>
      </widget>
     </item>
-    <item row="1" column="8">
-     <widget class="QPushButton" name="V">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
+    <item row="1" column="4">
+     <widget class="QPushButton" name="btn_O">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
       </property>
       <property name="text">
-       <string>V</string>
+       <string>O</string>
       </property>
      </widget>
     </item>
-    <item row="1" column="6">
-     <widget class="QPushButton" name="T">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="btn_D">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
       </property>
       <property name="text">
-       <string>T</string>
+       <string>D</string>
       </property>
      </widget>
     </item>
-    <item row="1" column="9">
-     <widget class="QPushButton" name="W">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
+    <item row="1" column="3">
+     <widget class="QPushButton" name="btn_N">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
       </property>
       <property name="text">
-       <string>W</string>
+       <string>N</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="11">
-     <widget class="QPushButton" name="L">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
+    <item row="0" column="6">
+     <widget class="QPushButton" name="btn_G">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
       </property>
       <property name="text">
-       <string>L</string>
+       <string>G</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="12">
-     <widget class="QPushButton" name="M">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="btn_M">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
       </property>
       <property name="text">
        <string>M</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="4">
-     <widget class="QPushButton" name="E">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="btn_A">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
       </property>
-      <property name="font">
-       <font>
-        <family>Cute Jellyfish</family>
-        <pointsize>20</pointsize>
-       </font>
+      <property name="text">
+       <string>A</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QPushButton" name="btn_H">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>H</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="9">
+     <widget class="QPushButton" name="btn_T">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>T</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QPushButton" name="btn_E">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
       </property>
       <property name="text">
        <string>E</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="btn_B">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>B</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="8">
+     <widget class="QPushButton" name="btn_I">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>I</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QPushButton" name="btn_P">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>P</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="8">
+     <widget class="QPushButton" name="btn_S">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>S</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="7">
+     <widget class="QPushButton" name="btn_R">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>R</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="btn_C">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>C</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QPushButton" name="btn_F">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>F</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="btn_L">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>L</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="9">
+     <widget class="QPushButton" name="btn_J">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>J</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="btn_U">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>U</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QPushButton" name="btn_V">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>V</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QPushButton" name="btn_W">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>W</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="5">
+     <widget class="QPushButton" name="btn_X">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>X</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="6">
+     <widget class="QPushButton" name="btn_Y">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="7">
+     <widget class="QPushButton" name="btn_Z">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Z</string>
       </property>
      </widget>
     </item>

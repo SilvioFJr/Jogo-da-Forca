@@ -8,6 +8,8 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
+static QString level = "level";
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -19,9 +21,11 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_pushButton_3_clicked();
+
 private:
     Ui::MainWindow *ui;
-    GameView* GaMeViewForm;
+   // GameView* GaMeViewForm;
 
 };
 #endif // MAINWINDOW_H

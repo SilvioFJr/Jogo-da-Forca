@@ -1,6 +1,9 @@
 #ifndef GAMEVIEW_H
 #define GAMEVIEW_H
 #include <QDialog>
+#include "conndb.h"
+
+
 
 namespace Ui {
 class GameView;
