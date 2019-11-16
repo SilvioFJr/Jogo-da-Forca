@@ -17,12 +17,14 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked()
 {
     QMessageBox alerta;
-    alerta.setStyleSheet("font-color: black; background-color: white;");
+    alerta.setStyleSheet("background-color: white;");
     alerta.setText("SELECIONAR LEVEL PRIMEIRO!");
 
     if (level == "level")
     {
         alerta.exec();
+
+
     }
     else
     {

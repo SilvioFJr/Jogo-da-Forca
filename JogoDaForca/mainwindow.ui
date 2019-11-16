@@ -37,7 +37,7 @@
   <property name="styleSheet">
    <string notr="true">background-image: url(:/imagens/Top-Dark-Wallpaper.jpg);
 QMessageBox {
-font-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
 background-color: rgb(255, 255, 255);}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -102,9 +102,7 @@ background: transparent;</string>
      <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
 color: rgb(255, 0, 0);
 background: transparent;
-QMessageBox {
-font-color: rgb(0, 0, 0);
-background-color: rgb(255, 255, 255);}</string>
+</string>
     </property>
     <property name="text">
      <string>PLAY</string>
