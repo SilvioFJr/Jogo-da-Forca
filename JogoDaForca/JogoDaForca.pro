@@ -19,12 +19,14 @@ SOURCES += \
     conndb.cpp \
     gameview.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    wordselect.cpp
 
 HEADERS += \
     conndb.h \
     gameview.h \
-    mainwindow.h
+    mainwindow.h \
+    wordselect.h
 
 FORMS += \
     gameview.ui \

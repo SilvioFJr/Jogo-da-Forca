@@ -32,19 +32,6 @@
    <string notr="true">background-image: url(:/imagens/Top-Dark-Wallpaper.jpg);
 </string>
   </property>
-  <widget class="QLabel" name="label_16">
-   <property name="geometry">
-    <rect>
-     <x>490</x>
-     <y>270</y>
-     <width>60</width>
-     <height>60</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>TextLabel</string>
-   </property>
-  </widget>
   <widget class="QWidget" name="gridLayoutWidget">
    <property name="geometry">
     <rect>
@@ -378,30 +365,38 @@ background: transparent;</string>
     </item>
    </layout>
   </widget>
-  <widget class="QListView" name="listView">
+  <widget class="QLabel" name="lbl_word">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>100</y>
-     <width>256</width>
-     <height>192</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>510</x>
+     <x>500</x>
      <y>150</y>
-     <width>141</width>
-     <height>71</height>
+     <width>271</width>
+     <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);</string>
+    <string notr="true">color: rgb(255, 255, 255); 
+font: 35pt &quot;Cute Jellyfish&quot;;</string>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_tip">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>731</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255); 
+font: 20pt &quot;Cute Jellyfish&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
    </property>
   </widget>
  </widget>
