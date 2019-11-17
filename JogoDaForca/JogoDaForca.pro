@@ -20,12 +20,14 @@ SOURCES += \
     gameview.cpp \
     main.cpp \
     mainwindow.cpp \
+    wordencriptate.cpp \
     wordselect.cpp
 
 HEADERS += \
     conndb.h \
     gameview.h \
     mainwindow.h \
+    wordencriptate.h \
     wordselect.h
 
 FORMS += \

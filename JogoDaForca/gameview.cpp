@@ -4,6 +4,7 @@
 #include<QSql>
 #include<QVector>
 #include<wordselect.h>
+#include "wordencriptate.h"
 
 
 GameView::GameView(QWidget *parent) :
@@ -21,8 +22,13 @@ GameView::GameView(QWidget *parent) :
     WordSelect* novo = new WordSelect(map);
     palavra = novo->ExtractKey(novo->ExtractKeysList());
     dica = novo->ExtractValue(palavra);
+    WordEncriptate* teste = new WordEncriptate (palavra);
 
-    ui->lbl_word->setText(palavra);
+
+
+    teste->EncriptateWordActualization('A');
+    teste->EncriptateWordActualization('R');
+    ui->lbl_word->setText(teste->getEncriptedWord());
     ui->lbl_tip->setText("Dica: "+dica);
 
 }
