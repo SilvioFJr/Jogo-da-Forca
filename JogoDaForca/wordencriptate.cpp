@@ -34,11 +34,7 @@ int WordEncriptate::EncriptateWordActualization(QChar letter)
             alarm++;
         }
     }
-    if (alarm>0)
     return alarm;
-    else
-        return -1;
-
 }
 
 

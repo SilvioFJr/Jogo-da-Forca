@@ -55,7 +55,7 @@
      <widget class="QPushButton" name="btn_Q">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -67,7 +67,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_K">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -79,7 +79,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_O">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -91,7 +91,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_D">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -103,7 +103,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_N">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -115,7 +115,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_G">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -127,7 +127,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_M">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -139,7 +139,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_A">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -151,7 +151,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_H">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -163,7 +163,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_T">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -175,7 +175,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_E">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -187,7 +187,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_B">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -199,7 +199,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_I">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -211,7 +211,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_P">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -223,7 +223,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_S">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -235,7 +235,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_R">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -247,7 +247,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_C">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -259,7 +259,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_F">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -271,7 +271,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_L">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -283,7 +283,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_J">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -295,7 +295,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_U">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -307,7 +307,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_V">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -319,7 +319,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_W">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -331,7 +331,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_X">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -343,7 +343,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_Y">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
@@ -355,7 +355,7 @@ background: transparent;</string>
      <widget class="QPushButton" name="btn_Z">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgb(255, 0, 0);
+color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">

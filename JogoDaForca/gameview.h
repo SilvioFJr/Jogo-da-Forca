@@ -19,7 +19,10 @@ public:
     ~GameView();
     static WordEncriptate* wordInGame;
     static QString dica, palavra;
+    static int limite;
     static WordSelect* novo;
+    void resetButtons();
+    void disableButton(QPushButton* button);
 
 
 private slots:
@@ -74,8 +77,6 @@ private slots:
     void on_btn_Y_clicked();
 
     void on_btn_Z_clicked();
-
-    void on_lbl_word_windowIconTextChanged(const QString &iconText);
 
 private:
     Ui::GameView *ui;
