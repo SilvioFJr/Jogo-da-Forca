@@ -23,7 +23,7 @@ GameView::GameView(QWidget *parent) :
 {
     QMap<QString, QString> map;
     QMapIterator<QString, QString> i(map);
-    QString DBRout = "C:/Users/Pedro Moreira/OneDrive/Nova pasta (2)/Jogo-da-Forca/BD/Regs.db";
+    QString DBRout = "C:/Users/Bzaum/Documents/Facul/Jogo-da-Forca/BD/Regs.db";
     ui->setupUi(this);
 
     ConnDB* connect = new ConnDB (DBRout);

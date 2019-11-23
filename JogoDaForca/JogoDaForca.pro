@@ -16,6 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    chances.cpp \
     conndb.cpp \
     gamebegin.cpp \
     gameview.cpp \
@@ -25,6 +26,7 @@ SOURCES += \
     wordselect.cpp
 
 HEADERS += \
+    chances.h \
     conndb.h \
     gamebegin.h \
     gameview.h \
