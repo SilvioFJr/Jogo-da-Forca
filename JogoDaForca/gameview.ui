@@ -37,8 +37,8 @@
     <rect>
      <x>-10</x>
      <y>380</y>
-     <width>824</width>
-     <height>215</height>
+     <width>950</width>
+     <height>251</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
@@ -399,7 +399,44 @@ font: 20pt &quot;Cute Jellyfish&quot;;</string>
     <string/>
    </property>
   </widget>
+  <widget class="QLabel" name="img">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>140</y>
+     <width>251</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../img/imagens.qrc">:/imagens/nova img - mudar transparencia.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mask">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>140</y>
+     <width>251</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(0, 0, 0, 0.9)</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../img/imagens.qrc"/>
+ </resources>
  <connections/>
 </ui>
