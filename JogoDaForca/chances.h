@@ -1,5 +1,5 @@
-#ifndef TENTATIVA_H
-#define TENTATIVA_H
+#ifndef CHANCES_H
+#define CHANCES_H
 
 #include <QObject>
 #include <QWidget>

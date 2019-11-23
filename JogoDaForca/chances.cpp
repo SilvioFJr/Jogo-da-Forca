@@ -1,4 +1,4 @@
-#include "tentativa.h"
+#include "chances.h"
 
 void tentativa::tentativa1(QLabel* lbl)
 {
