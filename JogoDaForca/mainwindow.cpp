@@ -9,11 +9,15 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    level ="level";
 }
 MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+QString MainWindow::level;
+
 void MainWindow::on_pushButton_clicked()
 {
     QMessageBox alerta;
@@ -23,8 +27,6 @@ void MainWindow::on_pushButton_clicked()
     if (level == "level")
     {
         alerta.exec();
-
-
     }
     else
     {

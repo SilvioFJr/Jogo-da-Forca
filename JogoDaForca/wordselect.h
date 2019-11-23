@@ -14,7 +14,7 @@ public:
     WordSelect(QMap<QString, QString> map);
     void SetMap (QMap<QString, QString> map);
     QStringList ExtractKeysList ();
-    QString ExtractKey(QStringList keys);
+    QString ExtractKey(QStringList keys, int index);
     QString ExtractValue(QString Key);
 };
 

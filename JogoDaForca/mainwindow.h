@@ -4,11 +4,11 @@
 #include <QMainWindow>
 #include "gameview.h"
 
+
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
-
-static QString level = "level";
 
 class MainWindow : public QMainWindow
 {
@@ -17,6 +17,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    static QString level;
 
 private slots:
     void on_pushButton_clicked();

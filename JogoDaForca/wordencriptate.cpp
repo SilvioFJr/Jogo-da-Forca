@@ -31,10 +31,14 @@ int WordEncriptate::EncriptateWordActualization(QChar letter)
         if (this->word[i] == letter)
         {
             encriptedWord[i]=letter;
-            alarm+=1;
+            alarm++;
         }
     }
+    if (alarm>0)
     return alarm;
+    else
+        return -1;
+
 }
 
 

@@ -17,6 +17,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     conndb.cpp \
+    gamebegin.cpp \
     gameview.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -25,6 +26,7 @@ SOURCES += \
 
 HEADERS += \
     conndb.h \
+    gamebegin.h \
     gameview.h \
     mainwindow.h \
     wordencriptate.h \

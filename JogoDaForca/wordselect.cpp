@@ -22,9 +22,9 @@ QStringList WordSelect::ExtractKeysList ()
     return temp;
 }
 
-QString WordSelect::ExtractKey(QStringList keysList)
+QString WordSelect::ExtractKey(QStringList keysList, int index)
 {
-    return keysList[0];
+    return keysList[index];
 }
 
 QString WordSelect::ExtractValue(QString Key)
