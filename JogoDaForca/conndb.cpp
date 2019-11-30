@@ -1,15 +1,15 @@
 #include "conndb.h"
 #include "gameview.h"
 #include "mainwindow.h"
+#include <QDir>
 
 
 
-ConnDB::ConnDB(QString StrConn)
+ConnDB::ConnDB()
 {
-    QString wordInGame = StrConn;
+    setStrConn();
     this->db = QSqlDatabase::addDatabase("QSQLITE");
-    this->db.setDatabaseName("../Jogo-da-Forca/BD/Regs.db");
-    this->db.setDatabaseName(wordInGame);
+    this->db.setDatabaseName(this->StrConn);
     this->db.open();
 }
 
@@ -29,4 +29,11 @@ QMap<QString, QString> ConnDB::SQLExec()
    }
    while (consulta.next());
    return palavras;
+}
+void ConnDB::setStrConn()
+{
+ QString dirpath ;
+ dirpath = QDir::currentPath();
+ dirpath = dirpath + "../Jogo-da-Forca/BD/Regs.db";
+ this->StrConn = dirpath;
 }
