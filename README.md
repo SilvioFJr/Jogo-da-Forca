@@ -1,7 +1,4 @@
 ﻿# Jogo-da-Forca
-#Trabalho PDS II
-
-Repositório para desenvolvimento do Jogo da Forca em C++.
 
 <p align="center">
   <img width="500" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/noose-312261_960_720.png">
@@ -14,7 +11,7 @@ Um potencial player do Jogo da Forca poderá testar sua inteligência utilizando
 
 Eu gostaria que o jogo tivesse elementos de terror e suspense.
 
-##Síntese do Jogo
+#Síntese do Jogo
 
 No Jogo da Forca o jogador tem que acertar qual é a palavra proposta. Para isso, é disponibilizado ao jogador o número de letras e um dica do tema ligado à palavra. A cada letra errada, é desenhada uma parte do corpo do enforcado. O jogo termina ou com o acerto da palavra ou com o término do preenchimento das partes corpóreas do enforcado. Este trabalho destina-se a implementação de uma estrutura digital para o Jogo da Forca em C++.
 
