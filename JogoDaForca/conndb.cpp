@@ -8,7 +8,7 @@ ConnDB::ConnDB(QString StrConn)
 {
     QString wordInGame = StrConn;
     this->db = QSqlDatabase::addDatabase("QSQLITE");
-    //this->db.setDatabaseName("C:/Users/Pedro Moreira/OneDrive/Nova pasta (2)/Jogo-da-Forca/BD/Regs.db");
+    this->db.setDatabaseName("../Jogo-da-Forca/BD/Regs.db");
     this->db.setDatabaseName(wordInGame);
     this->db.open();
 }
