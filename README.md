@@ -4,7 +4,7 @@
 Repositório para desenvolvimento do Jogo da Forca em C++.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/noose-312261_960_720.png">
+  <img width="500" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/noose-312261_960_720.png">
 </p>
 
 
