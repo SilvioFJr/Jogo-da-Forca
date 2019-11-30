@@ -19,12 +19,14 @@
 class ConnDB
 {
 private:
+
     QSqlDatabase db;
     QString StrConn;
 
 public:
-    ConnDB(QString StrConn);
+    ConnDB();
     QMap<QString, QString> SQLExec();
+    void setStrConn();
 };
 
 #endif // CONNDB_H

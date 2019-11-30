@@ -27,10 +27,9 @@ GameView::GameView(QWidget *parent) :
 {
     QMap<QString, QString> map;
     QMapIterator<QString, QString> i(map);
-    QString DBRout = "C:/Users/Pedro Moreira/OneDrive/Jogo-da-Forca/BD/Regs.db";
     ui->setupUi(this);
 
-    ConnDB* connect = new ConnDB (DBRout);
+    ConnDB* connect = new ConnDB();
     map = connect->SQLExec();
     limite = map.size();
 
