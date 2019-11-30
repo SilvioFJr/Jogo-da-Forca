@@ -18,6 +18,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     conndb.cpp \
     gameview.cpp \
+    hitsverificate.cpp \
     main.cpp \
     mainwindow.cpp \
     wordencriptate.cpp \
@@ -26,6 +27,7 @@ SOURCES += \
 HEADERS += \
     conndb.h \
     gameview.h \
+    hitsverificate.h \
     mainwindow.h \
     wordencriptate.h \
     wordselect.h

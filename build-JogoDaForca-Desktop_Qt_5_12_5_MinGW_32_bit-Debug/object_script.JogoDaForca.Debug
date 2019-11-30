@@ -1,0 +1,10 @@
+debug/chances.o
+debug/conndb.o
+debug/gameview.o
+debug/main.o
+debug/mainwindow.o
+debug/wordencriptate.o
+debug/wordselect.o
+debug/qrc_imagens.o
+debug/moc_gameview.o
+debug/moc_mainwindow.o

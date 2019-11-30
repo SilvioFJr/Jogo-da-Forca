@@ -424,7 +424,7 @@ font: 20pt &quot;Cute Jellyfish&quot;;</string>
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLabel" name="mask">
+  <widget class="QLabel" name="lbl_mask">
    <property name="geometry">
     <rect>
      <x>80</x>

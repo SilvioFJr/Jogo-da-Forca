@@ -1,0 +1,10 @@
+release/chances.o
+release/conndb.o
+release/gameview.o
+release/main.o
+release/mainwindow.o
+release/wordencriptate.o
+release/wordselect.o
+release/qrc_imagens.o
+release/moc_gameview.o
+release/moc_mainwindow.o

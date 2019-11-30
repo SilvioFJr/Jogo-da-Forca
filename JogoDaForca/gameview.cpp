@@ -1,5 +1,6 @@
 #include "gameview.h"
 #include "ui_gameview.h"
+#include<hitsverificate.h>
 #include<QMapIterator>
 #include<QSql>
 #include<QVector>
@@ -111,6 +112,7 @@ void GameView::on_btn_A_clicked()
     acertos+=wordInGame->EncriptateWordActualization('A');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_A);
+    HitsVerificate::SetPixMapAlpha(ui->lbl_mask, 0);
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
