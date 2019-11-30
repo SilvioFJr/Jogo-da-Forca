@@ -1,10 +1,12 @@
 ﻿# Jogo-da-Forca
 #Trabalho PDS II
 
-##Repositório para desenvolvimento do Jogo da Forca em C++.
+Repositório para desenvolvimento do Jogo da Forca em C++.
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/noose-312261_960_720.png">
+</p>
 
-#########![Jogo da Forca Preview](https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/noose-312261_960_720.png)
 
 Eu, como jogador do Jogo da Forca, quero que o jogo tenha a possibilidade de se escolher entre diferentes temas, com muitas palavras, que tenha um ranking e diferentes níveis de jogabilidade, afim de tornar minha experiência como jogador mais completa e divertida. 
 
