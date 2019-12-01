@@ -14,7 +14,7 @@ class GameView : public QDialog
 {
     Q_OBJECT
 private:
-    int imageAlpha;
+    int imageAlpha = 0;
 public:
     explicit GameView(QWidget *parent = nullptr);
     ~GameView();

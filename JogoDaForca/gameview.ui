@@ -69,63 +69,15 @@ background: transparent;</string>
       </property>
      </widget>
     </item>
-    <item row="1" column="0">
-     <widget class="QPushButton" name="btn_K">
+    <item row="2" column="3">
+     <widget class="QPushButton" name="btn_V">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
 color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
-       <string>K</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="4">
-     <widget class="QPushButton" name="btn_O">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>O</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="3">
-     <widget class="QPushButton" name="btn_D">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>D</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="3">
-     <widget class="QPushButton" name="btn_N">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>N</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="6">
-     <widget class="QPushButton" name="btn_G">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>G</string>
+       <string>V</string>
       </property>
      </widget>
     </item>
@@ -141,135 +93,15 @@ background: transparent;</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="0">
-     <widget class="QPushButton" name="btn_A">
+    <item row="1" column="4">
+     <widget class="QPushButton" name="btn_O">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
 color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
-       <string>A</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="7">
-     <widget class="QPushButton" name="btn_H">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>H</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="9">
-     <widget class="QPushButton" name="btn_T">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>T</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="4">
-     <widget class="QPushButton" name="btn_E">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>E</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <widget class="QPushButton" name="btn_B">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>B</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="8">
-     <widget class="QPushButton" name="btn_I">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>I</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="5">
-     <widget class="QPushButton" name="btn_P">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>P</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="8">
-     <widget class="QPushButton" name="btn_S">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>S</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="7">
-     <widget class="QPushButton" name="btn_R">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>R</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="2">
-     <widget class="QPushButton" name="btn_C">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>C</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="5">
-     <widget class="QPushButton" name="btn_F">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>F</string>
+       <string>O</string>
       </property>
      </widget>
     </item>
@@ -285,51 +117,15 @@ background: transparent;</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="9">
-     <widget class="QPushButton" name="btn_J">
+    <item row="1" column="8">
+     <widget class="QPushButton" name="btn_S">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
 color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
-       <string>J</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="2">
-     <widget class="QPushButton" name="btn_U">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>U</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="3">
-     <widget class="QPushButton" name="btn_V">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>V</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="4">
-     <widget class="QPushButton" name="btn_W">
-      <property name="styleSheet">
-       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
-color: rgba(255, 0, 0,1);
-background: transparent;</string>
-      </property>
-      <property name="text">
-       <string>W</string>
+       <string>S</string>
       </property>
      </widget>
     </item>
@@ -345,15 +141,15 @@ background: transparent;</string>
       </property>
      </widget>
     </item>
-    <item row="2" column="6">
-     <widget class="QPushButton" name="btn_Y">
+    <item row="1" column="9">
+     <widget class="QPushButton" name="btn_T">
       <property name="styleSheet">
        <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
 color: rgba(255, 0, 0,1);
 background: transparent;</string>
       </property>
       <property name="text">
-       <string>Y</string>
+       <string>T</string>
       </property>
      </widget>
     </item>
@@ -366,6 +162,210 @@ background: transparent;</string>
       </property>
       <property name="text">
        <string>Z</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="7">
+     <widget class="QPushButton" name="btn_R">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>R</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QPushButton" name="btn_G">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>G</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="btn_K">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>K</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QPushButton" name="btn_N">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>N</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="8">
+     <widget class="QPushButton" name="btn_I">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>I</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QPushButton" name="btn_E">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>E</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="btn_A">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>A</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="9">
+     <widget class="QPushButton" name="btn_J">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>J</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QPushButton" name="btn_W">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>W</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="btn_D">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>D</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="btn_U">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>U</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="6">
+     <widget class="QPushButton" name="btn_Y">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QPushButton" name="btn_P">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>P</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QPushButton" name="btn_H">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>H</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="btn_C">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>C</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="btn_B">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>B</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QPushButton" name="btn_F">
+      <property name="styleSheet">
+       <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgba(255, 0, 0,1);
+background: transparent;</string>
+      </property>
+      <property name="text">
+       <string>F</string>
       </property>
      </widget>
     </item>
@@ -422,22 +422,6 @@ font: 20pt &quot;Cute Jellyfish&quot;;</string>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="lbl_mask">
-   <property name="geometry">
-    <rect>
-     <x>80</x>
-     <y>140</y>
-     <width>251</width>
-     <height>221</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(0, 0, 0, 0.9)</string>
-   </property>
-   <property name="text">
-    <string>TextLabel</string>
    </property>
   </widget>
  </widget>

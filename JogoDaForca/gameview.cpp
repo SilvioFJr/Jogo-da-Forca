@@ -32,7 +32,6 @@ GameView::GameView(QWidget *parent) :
     ConnDB* connect = new ConnDB();
     map = connect->SQLExec();
     limite = map.size();
-
     novo = new WordSelect(map);
     this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
     index++;
@@ -56,23 +55,23 @@ void GameView::setImageAlpha()
 {
     if (getImageAlpha()==0)
     {
-        this->imageAlpha=20;
+        this->imageAlpha=51;
     }
-    else if (getImageAlpha()==20)
+    else if (getImageAlpha()==51)
     {
-        this->imageAlpha=40;
+        this->imageAlpha=102;
     }
-    else if (getImageAlpha()==40)
+    else if (getImageAlpha()==102)
     {
-        this->imageAlpha=60;
+        this->imageAlpha=153;
     }
-    else if (getImageAlpha()==60)
+    else if (getImageAlpha()==153)
     {
-        this->imageAlpha=80;
+        this->imageAlpha=204;
     }
-    else if (getImageAlpha()==80)
+    else if (getImageAlpha()==504)
     {
-        this->imageAlpha=100;
+        this->imageAlpha=255;
     }
 }
 void GameView::resetImageAlpha()
@@ -144,7 +143,7 @@ void GameView::on_btn_A_clicked()
     disableButton(ui->btn_A);
     if (acertosBackUp==acertos)
     {
-        HitsVerificate::SetPixMapAlpha(ui->lbl_mask, getImageAlpha());
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
         setImageAlpha();
     }
     if(acertos == tam && index<=limite)
@@ -156,6 +155,7 @@ void GameView::on_btn_A_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -163,9 +163,15 @@ void GameView::on_btn_A_clicked()
 
 void GameView::on_btn_B_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('B');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_B);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -175,6 +181,7 @@ void GameView::on_btn_B_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -182,9 +189,15 @@ void GameView::on_btn_B_clicked()
 
 void GameView::on_btn_C_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('C');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_C);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -194,6 +207,7 @@ void GameView::on_btn_C_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -201,9 +215,15 @@ void GameView::on_btn_C_clicked()
 
 void GameView::on_btn_D_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('D');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_D);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -213,6 +233,7 @@ void GameView::on_btn_D_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -220,9 +241,15 @@ void GameView::on_btn_D_clicked()
 
 void GameView::on_btn_E_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('E');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_E);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -232,6 +259,7 @@ void GameView::on_btn_E_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -239,9 +267,15 @@ void GameView::on_btn_E_clicked()
 
 void GameView::on_btn_F_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('F');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_F);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -251,16 +285,22 @@ void GameView::on_btn_F_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
 }
-
 void GameView::on_btn_G_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('G');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_G);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -270,6 +310,7 @@ void GameView::on_btn_G_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -277,9 +318,15 @@ void GameView::on_btn_G_clicked()
 
 void GameView::on_btn_H_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('H');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_H);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -289,16 +336,22 @@ void GameView::on_btn_H_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
 }
-
 void GameView::on_btn_I_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('I');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_I);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -308,16 +361,22 @@ void GameView::on_btn_I_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
 }
-
 void GameView::on_btn_J_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('J');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_J);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -327,6 +386,7 @@ void GameView::on_btn_J_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -334,9 +394,15 @@ void GameView::on_btn_J_clicked()
 
 void GameView::on_btn_K_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('K');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_K);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -346,6 +412,7 @@ void GameView::on_btn_K_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -353,9 +420,15 @@ void GameView::on_btn_K_clicked()
 
 void GameView::on_btn_L_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('L');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_L);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -365,6 +438,7 @@ void GameView::on_btn_L_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -374,9 +448,15 @@ void GameView::on_btn_L_clicked()
 
 void GameView::on_btn_M_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('M');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_M);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -386,16 +466,22 @@ void GameView::on_btn_M_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
 }
-
 void GameView::on_btn_N_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('N');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_N);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -405,6 +491,7 @@ void GameView::on_btn_N_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -412,9 +499,15 @@ void GameView::on_btn_N_clicked()
 
 void GameView::on_btn_O_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('O');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_O);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -424,6 +517,7 @@ void GameView::on_btn_O_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -431,9 +525,15 @@ void GameView::on_btn_O_clicked()
 
 void GameView::on_btn_P_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('P');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_P);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -443,6 +543,7 @@ void GameView::on_btn_P_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -450,9 +551,15 @@ void GameView::on_btn_P_clicked()
 
 void GameView::on_btn_Q_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('Q');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_Q);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -462,6 +569,7 @@ void GameView::on_btn_Q_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -469,9 +577,15 @@ void GameView::on_btn_Q_clicked()
 
 void GameView::on_btn_R_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('R');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_R);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -481,6 +595,7 @@ void GameView::on_btn_R_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -488,9 +603,15 @@ void GameView::on_btn_R_clicked()
 
 void GameView::on_btn_S_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('S');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_S);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -500,6 +621,7 @@ void GameView::on_btn_S_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -507,9 +629,15 @@ void GameView::on_btn_S_clicked()
 
 void GameView::on_btn_T_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('T');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_T);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -519,6 +647,7 @@ void GameView::on_btn_T_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -526,9 +655,15 @@ void GameView::on_btn_T_clicked()
 
 void GameView::on_btn_U_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('U');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_U);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -538,6 +673,7 @@ void GameView::on_btn_U_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -545,9 +681,15 @@ void GameView::on_btn_U_clicked()
 
 void GameView::on_btn_V_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('V');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_V);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -557,6 +699,7 @@ void GameView::on_btn_V_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -564,9 +707,15 @@ void GameView::on_btn_V_clicked()
 
 void GameView::on_btn_W_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('W');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_W);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -576,6 +725,7 @@ void GameView::on_btn_W_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -583,9 +733,15 @@ void GameView::on_btn_W_clicked()
 
 void GameView::on_btn_X_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('X');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_X);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -595,6 +751,7 @@ void GameView::on_btn_X_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -602,9 +759,15 @@ void GameView::on_btn_X_clicked()
 
 void GameView::on_btn_Y_clicked()
 {
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('Y');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_Y);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -614,6 +777,7 @@ void GameView::on_btn_Y_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
@@ -621,9 +785,15 @@ void GameView::on_btn_Y_clicked()
 
 void GameView::on_btn_Z_clicked()
 {
-    acertos+=wordInGame->EncriptateWordActualization('W');
+    int acertosBackUp = acertos;
+    acertos+=wordInGame->EncriptateWordActualization('Z');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_Z);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_img, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
@@ -633,6 +803,7 @@ void GameView::on_btn_Z_clicked()
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
         ui->lbl_tip->setText("Dica: "+this->dica);
         resetButtons();
+        resetImageAlpha();
         acertos = 0;
         index++;
     }
