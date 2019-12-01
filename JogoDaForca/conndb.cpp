@@ -34,6 +34,6 @@ void ConnDB::setStrConn()
 {
  QString dirpath ;
  dirpath = QDir::currentPath();
- dirpath = dirpath + "../Jogo-da-Forca/BD/Regs.db";
+ dirpath = dirpath + "/BD/Regs.db";
  this->StrConn = dirpath;
 }
