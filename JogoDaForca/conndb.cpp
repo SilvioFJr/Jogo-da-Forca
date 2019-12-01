@@ -2,6 +2,7 @@
 #include "gameview.h"
 #include "mainwindow.h"
 #include <QDir>
+#include<QCoreApplication>
 
 
 
@@ -32,8 +33,9 @@ QMap<QString, QString> ConnDB::SQLExec()
 }
 void ConnDB::setStrConn()
 {
- QString dirpath ;
- dirpath = QDir::currentPath();
- dirpath = dirpath + "/BD/Regs.db";
- this->StrConn = dirpath;
+ QDir dirpath (QCoreApplication::applicationDirPath());
+ dirpath.cdUp();
+ dirpath.cdUp();
+ dirpath.cd("BD");
+ this->StrConn = dirpath.path()+"/Regs.db";
 }

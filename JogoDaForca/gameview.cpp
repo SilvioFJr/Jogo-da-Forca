@@ -48,6 +48,37 @@ void GameView::disableButton(QPushButton* button)
     button->setEnabled(false);
     button->setStyleSheet("font: 36pt \"Cute Jellyfish\"; color: rgba(255, 0, 0,0); background: transparent;");
 }
+int GameView::getImageAlpha()
+{
+    return this->imageAlpha;
+}
+void GameView::setImageAlpha()
+{
+    if (getImageAlpha()==0)
+    {
+        this->imageAlpha=20;
+    }
+    else if (getImageAlpha()==20)
+    {
+        this->imageAlpha=40;
+    }
+    else if (getImageAlpha()==40)
+    {
+        this->imageAlpha=60;
+    }
+    else if (getImageAlpha()==60)
+    {
+        this->imageAlpha=80;
+    }
+    else if (getImageAlpha()==80)
+    {
+        this->imageAlpha=100;
+    }
+}
+void GameView::resetImageAlpha()
+{
+   this->imageAlpha = 0;
+}
 
 void GameView::resetButtons()
 {
@@ -107,11 +138,15 @@ void GameView::resetButtons()
 
 void GameView::on_btn_A_clicked()
 {
-
+    int acertosBackUp = acertos;
     acertos+=wordInGame->EncriptateWordActualization('A');
     ui->lbl_word->setText(wordInGame->getEncriptedWord());
     disableButton(ui->btn_A);
-    HitsVerificate::SetPixMapAlpha(ui->lbl_mask, 0);
+    if (acertosBackUp==acertos)
+    {
+        HitsVerificate::SetPixMapAlpha(ui->lbl_mask, getImageAlpha());
+        setImageAlpha();
+    }
     if(acertos == tam && index<=limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);

@@ -405,7 +405,7 @@ font: 20pt &quot;Cute Jellyfish&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="img">
+  <widget class="QLabel" name="lbl_img">
    <property name="geometry">
     <rect>
      <x>80</x>

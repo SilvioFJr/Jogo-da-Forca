@@ -13,7 +13,8 @@ class GameView;
 class GameView : public QDialog
 {
     Q_OBJECT
-
+private:
+    int imageAlpha;
 public:
     explicit GameView(QWidget *parent = nullptr);
     ~GameView();
@@ -23,6 +24,9 @@ public:
     static WordSelect* novo;
     void resetButtons();
     void disableButton(QPushButton* button);
+    int getImageAlpha();
+    void setImageAlpha();
+    void resetImageAlpha();
 
 
 private slots:
