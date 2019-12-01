@@ -17,5 +17,7 @@ No Jogo da Forca o jogador tem que acertar qual é a palavra proposta. Para isso
 
 ## *Diagrama de Classes*
 
-![Diagrama de Classes](https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/Classes.jpg)
+<p align="center">
+  <img width="300" height="500" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/Classes.jpg">
+</p>
 
