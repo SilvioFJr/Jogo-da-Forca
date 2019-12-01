@@ -4,7 +4,7 @@
   <img width="500" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/noose-312261_960_720.png">
 </p>
 
-
+# User Stories
 Eu, como jogador do Jogo da Forca, quero que o jogo tenha a possibilidade de se escolher entre diferentes temas, com muitas palavras, que tenha um ranking e diferentes níveis de jogabilidade, afim de tornar minha experiência como jogador mais completa e divertida. 
 
 Um potencial player do Jogo da Forca poderá testar sua inteligência utilizando uma interface simples e interativa que o ajudará a desenvolver ainda mais suas habilidades. Não é necessário cadastro para a utilização do sistema, bastando ao usuário apenas a escolha do nível de dificuldade do jogo. E, com isso feito, já é possível começar a jogar! 
