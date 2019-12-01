@@ -18,6 +18,6 @@ No Jogo da Forca o jogador tem que acertar qual é a palavra proposta. Para isso
 ## *Diagrama de Classes*
 
 <p align="center">
-  <img width="300" height="500" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/Classes.jpg">
+  <img width="600" height="500" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/Classes.jpg">
 </p>
 
