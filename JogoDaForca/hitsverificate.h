@@ -7,7 +7,7 @@
 class HitsVerificate
 {
 public:
-    static void SetPixMapAlpha (QLabel* lbl, int alpha);
+    static void SetHangManImage (QLabel* lbl, int error);
 };
 
 #endif // HITSVERIFICATE_H

@@ -14,7 +14,7 @@ class GameView : public QDialog
 {
     Q_OBJECT
 private:
-    int imageAlpha = 0;
+    int error = 0;
 public:
     explicit GameView(QWidget *parent = nullptr);
     ~GameView();
@@ -24,9 +24,12 @@ public:
     static WordSelect* novo;
     void resetButtons();
     void disableButton(QPushButton* button);
-    int getImageAlpha();
-    void setImageAlpha();
-    void resetImageAlpha();
+    int getError();
+    void setError();
+    void resetError();
+    void GameOverCheck ();
+    void WordChange ();
+    void hits(int HitsBackUp);
 
 
 private slots:

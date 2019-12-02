@@ -391,10 +391,10 @@ font: 35pt &quot;Cute Jellyfish&quot;;</string>
   <widget class="QLabel" name="lbl_tip">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>200</x>
      <y>10</y>
-     <width>731</width>
-     <height>111</height>
+     <width>541</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -408,25 +408,47 @@ font: 20pt &quot;Cute Jellyfish&quot;;</string>
   <widget class="QLabel" name="lbl_img">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>140</y>
-     <width>251</width>
-     <height>221</height>
+     <x>0</x>
+     <y>10</y>
+     <width>190</width>
+     <height>360</height>
     </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>190</width>
+     <height>360</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>190</width>
+     <height>360</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>190</width>
+     <height>360</height>
+    </size>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
    </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap resource="../img/imagens.qrc">:/imagens/nova img - mudar transparencia.jpg</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
    </property>
   </widget>
  </widget>
- <resources>
-  <include location="../img/imagens.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
