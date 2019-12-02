@@ -27,6 +27,10 @@ Eu gostaria que o jogo tivesse elementos de terror e suspense.
 
 Eu, como jogador, quero poder alternar a dificuldade do jogo, para que minha experiencia não se torne estressante e frustrante.
 
+## *Como instalar o jogo*
+
+Para jogar, basta fazer o download do [instalador](https://drive.google.com/open?id=1QkKlepO9nTOilvpCRNwqWTjbNj69AEne), fazer a instalação e acessar o executavel do jogo em ../executavel/exec
+
 ## *Diagrama de Classes*
 
 <p align="center">

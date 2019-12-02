@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/bd">
-        <file>Regs.db</file>
-        <file>TESTE.accdb</file>
-    </qresource>
-</RCC>
