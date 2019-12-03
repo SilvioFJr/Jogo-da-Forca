@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/imagens">
+        <file>imgForca.png</file>
+        <file>Top-Dark-Wallpaper.jpg</file>
+        <file>forca.png</file>
+        <file>img_gameview.jpg</file>
+        <file>lbl_mask.jpg</file>
+        <file>giphy.gif</file>
+        <file>img1.png</file>
+        <file>img2.png</file>
+        <file>img3.png</file>
+        <file>img4.png</file>
+        <file>img5.png</file>
+        <file>img0.png</file>
+    </qresource>
+</RCC>
