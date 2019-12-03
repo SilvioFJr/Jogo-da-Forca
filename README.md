@@ -37,3 +37,7 @@ Para jogar, basta fazer o download do [instalador](https://drive.google.com/open
   <img width="600" height="500" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/Classes.jpg">
 </p>
 
+## *Usabilidade*
+
+<img align="left" width="200" height="200" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/Prints/1.jpg">  <img align="left" width="200" height="200" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/Prints/2.jpg">  <img align="left" width="200" height="200" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/Prints/3.jpg">  
+
