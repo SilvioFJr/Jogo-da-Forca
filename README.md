@@ -34,10 +34,13 @@ Para jogar, basta fazer o download do [instalador](https://drive.google.com/open
 ## *Diagrama de Classes*
 
 <p align="center">
-  <img width="600" height="500" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/Classes.jpg">
+  <img width="600" height="500" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/Classes.jpg">
 </p>
 
 ## *Usabilidade*
 
-<img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print1.PNG">  <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print2.PNG">  <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print3.PNG"> <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/giphy.gif">
-
+<img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print1.PNG">  
+<img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print2.PNG">  
+<img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print3.PNG"> 
+<img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/ScreenGameOver.gif">
+<img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/ScreenYouWin.gif">
