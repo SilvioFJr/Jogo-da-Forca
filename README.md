@@ -51,16 +51,16 @@ que se adaptaram facilmente às necessidades do projeto, possibilitando que a eq
 </p>
 <p align = "justify"> 
 Pode-se notar muitos elementos de desenvolvimento orientado a objetos neste projeto, deste o mais básico, classes, até técnicas avançadas como herança, polimorfismo 
-entre outos. Abaixo, segue o diagrama com algumas das principais classes e seus principais métodos:
+entre outos. Abaixo, segue o diagrama com algumas das principais classes e seus principais métodos:</p>
 <p align="center">
   <img width="600" height="500" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/Classes.jpg">
 </p>
 
-</p>
+
 
 ## *Como instalar o jogo*
 
-<p align = "justify"> Para jogar, basta fazer o download do [instalador](https://drive.google.com/open?id=1QkKlepO9nTOilvpCRNwqWTjbNj69AEne), fazer a instalação e acessar o executavel do jogo em ../executavel/exec </p>
+<p> Para jogar, basta fazer o download do [instalador](https://drive.google.com/open?id=1QkKlepO9nTOilvpCRNwqWTjbNj69AEne), fazer a instalação e acessar o executavel do jogo em ../executavel/exec </p>
 
 
 
