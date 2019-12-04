@@ -11,15 +11,10 @@
 static int acertos=0;
 static int tam = 0;
 static int index = 0;
-
 WordEncriptate* GameView::wordInGame;
-
 QString GameView::dica;
-
 QString GameView::palavra;
-
 int GameView::limite;
-
 WordSelect* GameView::novo;
 
 
@@ -30,7 +25,6 @@ GameView::GameView(QWidget *parent) :
     QMap<QString, QString> map;
     QMapIterator<QString, QString> i(map);
     ui->setupUi(this);
-
     ConnDB* connect = new ConnDB();
     map = connect->SQLExec();
     limite = map.size();
