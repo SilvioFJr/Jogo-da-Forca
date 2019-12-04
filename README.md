@@ -60,7 +60,7 @@ entre outos. Abaixo, segue o diagrama com algumas das principais classes e seus 
 
 ## *Como instalar o jogo*
 
-<p> Para jogar, basta fazer o download do [instalador](https://drive.google.com/open?id=1QkKlepO9nTOilvpCRNwqWTjbNj69AEne), fazer a instalação e acessar o executavel do jogo em ../executavel/exec </p>
+<p> Para jogar, basta fazer o download do <a href="https://drive.google.com/open?id=1QkKlepO9nTOilvpCRNwqWTjbNj69AEne">instalador</a></p>, fazer a instalação e acessar o executavel do jogo em ../executavel/exec </p>
 
 
 
