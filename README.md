@@ -6,21 +6,30 @@
 
 ## *User Stories*
 <p align = "justify"> 
-Nossa equipe recebeu a demanda de construir uma aplicação que atendesse aos seguintes requisitos funcionais:
-* Palavras com diferentes temáticas para tonar a experiencia mais variada.
-* Uma grade quantidade de palavras palavras, a fim de tornar minha experiência como jogador mais longa e pouco repetitiva. 
-* Presença de elementos de terror e suspense.
-* Possibilidade de escolher a dificuldade do jogo, para que minha experiencia não se torne estressante e frustrante.
-</p>
+Nossa equipe recebeu a demanda de construir uma aplicação que atendesse aos seguintes requisitos funcionais:</p>
+
+<p>* Palavras com diferentes temáticas para tonar a experiencia mais variada.</p>
+<p>* Uma grade quantidade de palavras palavras, a fim de tornar minha experiência como jogador mais longa e pouco repetitiva. </p>
+<p>* Presença de elementos de terror e suspense.</p>
+<p>* Possibilidade de escolher a dificuldade do jogo, para que minha experiencia não se torne estressante e frustrante.</p>
 
 ## *Sobre o jogo*
 
-<p align="center">
+<figure>
 <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print1.PNG">  
+</figure>
+<figure>
 <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print2.PNG">  
+</figure>
+<figure>
 <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print3.PNG"> 
+</figure>
+<figure>
 <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/ScreenGameOver.gif">
+</figure>
+<figure>
 <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/ScreenYouWin.gif">
+</figure>
 </p>
 
 <p align="justify"> 
