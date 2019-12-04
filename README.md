@@ -32,7 +32,7 @@ Nossa equipe recebeu a demanda de construir uma aplicação que atendesse aos se
 </figure>
 </p>
 
-<p align="left"> 
+<p align="justify"> 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 Um potencial player do Jogo da Forca poderá testar seus conhecimentos utilizando uma interface simples 
 e interativa que o ajudará a desenvolver ainda mais suas habilidades. 
