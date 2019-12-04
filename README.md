@@ -5,7 +5,7 @@
 </p>
 
 ## *Sobre o jogo*
-<p align="justify"> Um potencial player do Jogo da Forca poderá testar seus conhecimentos utilizando uma interface simples e interativa que o ajudará a desenvolver ainda mais suas habilidades. Não é necessário cadastro para a utilização do sistema, bastando ao usuário apenas a escolha do nível de dificuldade do jogo. E, com isso feito, já é possível começar a jogar! </p>
+
 <p align="center">
 <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print1.PNG">  
 <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print2.PNG">  
@@ -13,6 +13,9 @@
 <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/ScreenGameOver.gif">
 <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/ScreenYouWin.gif">
 </p>
+
+<p align="justify"> Um potencial player do Jogo da Forca poderá testar seus conhecimentos utilizando uma interface simples e interativa que o ajudará a desenvolver ainda mais suas habilidades. Não é necessário cadastro para a utilização do sistema, bastando ao usuário apenas a escolha do nível de dificuldade do jogo. E, com isso feito, já é possível começar a jogar! </p>
+
 
 ## *Síntese*
 
