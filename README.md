@@ -14,10 +14,7 @@ Nossa equipe recebeu a demanda de construir uma aplicação que atendesse aos se
 <p>* Possibilidade de escolher a dificuldade do jogo, para que minha experiencia não se torne estressante e frustrante.</p>
 
 ## *Sobre o jogo*
-
-
 <p align="center">
-
 <figure>
 <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/print1.PNG">  
 </figure>
@@ -34,15 +31,6 @@ Nossa equipe recebeu a demanda de construir uma aplicação que atendesse aos se
 <img align="left" width="400" height="400" src="https://github.com/SilvioFJr/Jogo-da-Forca/blob/master/img/ScreenYouWin.gif">
 </figure>
 </p>
-
-<p align="justify"> Um potencial player do Jogo da Forca poderá testar seus conhecimentos utilizando uma interface simples e interativa que o ajudará a desenvolver ainda mais suas habilidades. Não é necessário cadastro para a utilização do sistema, bastando ao usuário apenas a escolha do nível de dificuldade do jogo. E, com isso feito, já é possível começar a jogar! </p>
-
-
-## *Síntese*
-
-<p align = "justify"> No Jogo da Forca o jogador tem que acertar qual é a palavra proposta. Para isso, é disponibilizado ao jogador o número de letras e um dica do tema ligado à palavra. Tradicionalmente, a cada letra errada, é desenhada uma parte do corpo do enforcado. O jogo termina ou com o acerto de todas as palavras do level selecionado ou quando o corpo do enforcado estiver completo. Nesta releitura deste clássico, buscou uma temática de suspense e terror, algo já evidente na escolha das cores e de estilos. É possível também alternar níveis, para evitar que o jogador não se sinta frustrado com a dificuldade ou com falta dela. Este trabalho destina-se a implementação de uma estrutura digital para o Jogo da Forca em C++. </p>
-
-<p align="justify"> 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 Um potencial player do Jogo da Forca poderá testar seus conhecimentos utilizando uma interface simples 
 e interativa que o ajudará a desenvolver ainda mais suas habilidades. 
@@ -50,7 +38,9 @@ Não é necessário cadastro para a utilização do sistema, bastando ao usuári
 E, com isso feito, já é possível começar a jogar! 
 </p>
 
+## *Síntese*
 
+<p align = "justify"> No Jogo da Forca o jogador tem que acertar qual é a palavra proposta. Para isso, é disponibilizado ao jogador o número de letras e um dica do tema ligado à palavra. Tradicionalmente, a cada letra errada, é desenhada uma parte do corpo do enforcado. O jogo termina ou com o acerto de todas as palavras do level selecionado ou quando o corpo do enforcado estiver completo. Nesta releitura deste clássico, buscou uma temática de suspense e terror, algo já evidente na escolha das cores e de estilos. É possível também alternar níveis, para evitar que o jogador não se sinta frustrado com a dificuldade ou com falta dela. Este trabalho destina-se a implementação de uma estrutura digital para o Jogo da Forca em C++. </p>
 
 ## *Síntese*
 
