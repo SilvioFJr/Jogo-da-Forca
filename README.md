@@ -44,7 +44,7 @@ Nesta releitura deste clássico, buscou uma temática de suspense e terror, algo
 ## *Desenvolvimento*
 
 <p align = "justify"> 
-Para o desenvolvimento do jogo, foi utilizado o framework Qt Creator. Saiba mais [aqui](https://www.qt.io/).
+Para o desenvolvimento do jogo, foi utilizado o framework Qt Creator. Saiba mais <a href="https://www.qt.io/">aqui</a>.
 Foi utilizado o paradigma de desenvolvimento orientado a objetos. E por isso, nota-se a presença de classes bem autocontidas (coesas) e com pouco acoplamento.
 O Qt Creator possibilitou uma maior versatilidade na construção da aplicação uma vez que já possui uma vasta biblioteca gráfica com inúmeras classes pré implementadas,
 que se adaptaram facilmente às necessidades do projeto, possibilitando que a equipe de desenvolvimento focasse no desenvolvimento da arquitetura e desse menos atenção à contrução da interface gráfica em si.
@@ -60,7 +60,7 @@ entre outos. Abaixo, segue o diagrama com algumas das principais classes e seus 
 
 ## *Como instalar o jogo*
 
-<p> Para jogar, basta fazer o download do <a href="https://drive.google.com/open?id=1QkKlepO9nTOilvpCRNwqWTjbNj69AEne">instalador</a></p>, fazer a instalação e acessar o executavel do jogo em ../executavel/exec </p>
+<p> Para jogar, basta fazer o download do <a href="https://drive.google.com/open?id=1QkKlepO9nTOilvpCRNwqWTjbNj69AEne">instalador</a>,  fazer a instalação e acessar o executavel do jogo em ../executavel/exec </p>
 
 
 
