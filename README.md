@@ -32,7 +32,7 @@ Nossa equipe recebeu a demanda de construir uma aplicação que atendesse aos se
 </figure>
 </p>
 
-<p align="justify"> 
+<p align="left"> 
 Um potencial player do Jogo da Forca poderá testar seus conhecimentos utilizando uma interface simples 
 e interativa que o ajudará a desenvolver ainda mais suas habilidades. 
 Não é necessário cadastro para a utilização do sistema, bastando ao usuário apenas a escolha do nível de dificuldade do jogo. 
