@@ -1,10 +1,15 @@
-release/chances.o
 release/conndb.o
+release/gameoverview.o
 release/gameview.o
+release/hitsverificate.o
 release/main.o
 release/mainwindow.o
 release/wordencriptate.o
 release/wordselect.o
+release/youwinview.o
+release/qrc_Sounds.o
 release/qrc_imagens.o
+release/moc_gameoverview.o
 release/moc_gameview.o
 release/moc_mainwindow.o
+release/moc_youwinview.o

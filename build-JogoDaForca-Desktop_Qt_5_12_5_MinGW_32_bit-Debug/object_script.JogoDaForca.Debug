@@ -1,10 +1,15 @@
-debug/chances.o
 debug/conndb.o
+debug/gameoverview.o
 debug/gameview.o
+debug/hitsverificate.o
 debug/main.o
 debug/mainwindow.o
 debug/wordencriptate.o
 debug/wordselect.o
+debug/youwinview.o
+debug/qrc_Sounds.o
 debug/qrc_imagens.o
+debug/moc_gameoverview.o
 debug/moc_gameview.o
 debug/moc_mainwindow.o
+debug/moc_youwinview.o

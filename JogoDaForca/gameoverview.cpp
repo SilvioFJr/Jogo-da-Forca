@@ -1,4 +1,5 @@
 #include "gameoverview.h"
+#include "mainwindow.h"
 #include "ui_gameoverview.h"
 
 GameOverView::GameOverView(QWidget *parent) :
@@ -11,10 +12,19 @@ GameOverView::GameOverView(QWidget *parent) :
     processLabel->setMovie(movie);
     movie->scaledSize();
     movie->start();
+    ui->label->raise();
+    ui->pushButton->raise();
 }
 
 
 GameOverView::~GameOverView()
 {
     delete ui;
+}
+
+void GameOverView::on_pushButton_clicked()
+{
+    static MainWindow Main;
+    this->close();
+    Main.show();
 }

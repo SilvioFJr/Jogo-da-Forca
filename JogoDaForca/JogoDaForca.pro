@@ -23,7 +23,8 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     wordencriptate.cpp \
-    wordselect.cpp
+    wordselect.cpp \
+    youwinview.cpp
 
 HEADERS += \
     conndb.h \
@@ -32,12 +33,14 @@ HEADERS += \
     hitsverificate.h \
     mainwindow.h \
     wordencriptate.h \
-    wordselect.h
+    wordselect.h \
+    youwinview.h
 
 FORMS += \
     gameoverview.ui \
     gameview.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    youwinview.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

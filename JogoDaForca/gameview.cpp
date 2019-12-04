@@ -2,6 +2,7 @@
 #include "ui_gameview.h"
 #include"hitsverificate.h"
 #include"gameoverview.h"
+#include"youwinview.h"
 #include<QMapIterator>
 #include<QSql>
 #include<QVector>
@@ -115,6 +116,12 @@ void GameView::WordChange ()
         HitsVerificate::SetHangManImage (ui->lbl_img, getError());
         acertos = 0;
         index++;
+    }
+    else if (index == limite)
+    {
+        YouWinView fim;
+        this->destroy();
+        fim.exec();
     }
 }
 

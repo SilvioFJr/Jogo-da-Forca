@@ -26,7 +26,6 @@ public:
     QWidget *centralwidget;
     QLabel *label_2;
     QPushButton *pushButton;
-    QPushButton *pushButton_2;
     QLabel *label_3;
     QPushButton *pushButton_3;
     QLabel *label;
@@ -68,7 +67,7 @@ public:
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setEnabled(true);
-        pushButton->setGeometry(QRect(340, 330, 141, 68));
+        pushButton->setGeometry(QRect(340, 380, 141, 68));
         pushButton->setMouseTracking(false);
         pushButton->setTabletTracking(false);
         pushButton->setAutoFillBackground(false);
@@ -79,16 +78,6 @@ public:
         pushButton->setCheckable(false);
         pushButton->setAutoRepeat(false);
         pushButton->setAutoDefault(false);
-        pushButton_2 = new QPushButton(centralwidget);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(340, 470, 141, 68));
-        pushButton_2->setAutoFillBackground(false);
-        pushButton_2->setStyleSheet(QString::fromUtf8("font: 36pt \"Cute Jellyfish\";\n"
-"color: rgb(255, 0, 0);\n"
-"background: transparent;"));
-        pushButton_2->setCheckable(false);
-        pushButton_2->setAutoRepeat(false);
-        pushButton_2->setAutoDefault(false);
         label_3 = new QLabel(centralwidget);
         label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(250, 110, 311, 131));
@@ -102,7 +91,7 @@ public:
 "background: transparent;"));
         pushButton_3 = new QPushButton(centralwidget);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(250, 400, 321, 68));
+        pushButton_3->setGeometry(QRect(250, 440, 321, 68));
         QSizePolicy sizePolicy1(QSizePolicy::Maximum, QSizePolicy::Fixed);
         sizePolicy1.setHorizontalStretch(31);
         sizePolicy1.setVerticalStretch(0);
@@ -128,7 +117,6 @@ public:
         label_2->raise();
         label_3->raise();
         pushButton->raise();
-        pushButton_2->raise();
         pushButton_3->raise();
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -148,7 +136,6 @@ public:
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "JOGO DA FORCA", nullptr));
         label_2->setText(QApplication::translate("MainWindow", "HANGMAN", nullptr));
         pushButton->setText(QApplication::translate("MainWindow", "PLAY", nullptr));
-        pushButton_2->setText(QApplication::translate("MainWindow", "HELP", nullptr));
         label_3->setText(QApplication::translate("MainWindow", "GAME", nullptr));
         pushButton_3->setText(QApplication::translate("MainWindow", "MODE", nullptr));
         label->setText(QString());

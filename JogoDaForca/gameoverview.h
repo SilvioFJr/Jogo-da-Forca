@@ -17,6 +17,9 @@ public:
     explicit GameOverView(QWidget *parent = nullptr);
     ~GameOverView();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::GameOverView *ui;
 };

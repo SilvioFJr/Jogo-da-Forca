@@ -49,6 +49,24 @@ background: transparent;</string>
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;YOU&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;LOSE!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>540</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 36pt &quot;Cute Jellyfish&quot;;
+color: rgb(255, 0, 0);
+background: transparent;</string>
+   </property>
+   <property name="text">
+    <string>RESTART</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
