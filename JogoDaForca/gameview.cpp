@@ -97,10 +97,16 @@ void GameView::hits(int HitsBackUp)
 
 void GameView::WordChange ()
 {
-    if(acertos == tam && index<=limite)
+    // Only move on when the current word is complete
+    if (acertos != tam)
+    {
+        return;
+    }
+
+    if (index < limite)
     {
         this->palavra = novo->ExtractKey(novo->ExtractKeysList(), index);
-        dica = dica = novo->ExtractValue(this->palavra);
+        dica = novo->ExtractValue(this->palavra);
         tam = this->palavra.length();
         this->wordInGame = new WordEncriptate (this->palavra);
         ui->lbl_word->setText(wordInGame->getEncriptedWord());
@@ -111,7 +117,7 @@ void GameView::WordChange ()
         acertos = 0;
         index++;
     }
-    else if (index == limite)
+    else
     {
         YouWinView fim;
         this->destroy();
